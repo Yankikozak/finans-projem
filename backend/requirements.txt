@@ -37,5 +37,6 @@ google-generativeai==0.8.3
 
 # Utils
 python-dotenv==1.0.1
-rapidfuzz
+# rapidfuzz==3.10.1
 orjson==3.10.12
+
