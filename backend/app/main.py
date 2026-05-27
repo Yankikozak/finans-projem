@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 
-from app.api.router import api_router
+from api.router import api_router
 from app.core.config import get_settings
 from app.core.database import Base, engine
 from app.services.blog.seed import seed_blog_posts
